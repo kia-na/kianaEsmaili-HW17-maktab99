@@ -1,0 +1,40 @@
+/* Q6 */
+.container {
+  margin-top: 5rem;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.plus,
+.minus {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+.plus {
+  background-color: green;
+}
+.minus {
+  background-color: rgb(72, 72, 72);
+}
+.number {
+  width: 3rem;
+  text-align: center;
+}
+.reset {
+  text-align: center;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+  width: 8rem;
+  margin: 2rem auto;
+}
+/* Q6 */
